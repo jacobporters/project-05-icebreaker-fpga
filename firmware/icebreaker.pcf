@@ -1,0 +1,24 @@
+# 12 MHz clock
+set_io -nowarn clk        35
+
+# Breakaway tab LEDs (no soldering needed)
+set_io -nowarn led1       26
+set_io -nowarn led2       27
+set_io -nowarn led3       25
+set_io -nowarn led4       23
+set_io -nowarn led5       21
+
+# Breakaway tab buttons
+set_io -nowarn btn1       20
+set_io -nowarn btn2       19
+set_io -nowarn btn3       18
+
+# Onboard RGB LED
+set_io -nowarn led_red_n  39
+set_io -nowarn led_grn_n  40
+set_io -nowarn led_blu_n  41
+
+# UART tx -- routed to the board's built-in RS232/FTDI pin
+# (FT2232H channel B enumerates as its own /dev/cu.usbserial-* device;
+#  no external USB-serial adapter or PMOD wiring needed for this pin)
+set_io -nowarn tx          9

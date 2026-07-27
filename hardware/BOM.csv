@@ -1,1 +1,5 @@
-Part,Value/Part#,Qty,Notes
+component,value_part_number,qty,source,notes
+FPGA dev board,iCEBreaker FPGA V1.1a,1,1bitsquared.com,"iCE40UP5K, SG48 package"
+PMOD headers,2x6 2.54mm (included with board),2,1bitsquared.com,Soldered onto PMOD1A/PMOD1B; ultimately unused in final design
+Oscilloscope,FNIRSI 2C53T,1,(already owned),Used for UART frame/timing verification
+ESP32 dev board,ESP32 clone,1,(already owned -- Project 3),"Reused from Project 3, no new board purchased"
